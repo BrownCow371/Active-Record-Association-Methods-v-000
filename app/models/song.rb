@@ -11,6 +11,6 @@ class Song < ActiveRecord::Base
     drake = Artist.new(name: "Drake")
     #self.artist = Artist.find_by(name: "Drake")
     self.artist = drake
-    binding.pry
+    #binding.pry
   end
 end
